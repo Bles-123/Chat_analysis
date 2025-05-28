@@ -70,21 +70,4 @@ It’s designed for anyone who wants to explore messaging patterns, track engage
 
 ---
 
-## 📦 Folder Structure
 
-```bash
-chat_analysis/
-├── analysis.py
-├── app.py
-├── utils/
-│   ├── parser.py
-│   ├── sentiment.py
-├── assets/
-│   ├── logo.png
-│   ├── styles.css
-├── screenshots/
-│   ├── dashboard.png
-│   ├── peak_activity.png
-│   ├── emoji_usage.png
-│   └── sentiment.png
-└── README.md
