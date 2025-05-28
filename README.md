@@ -1,73 +1,87 @@
-# 📊 Chat Analysis – WhatsApp Chat Insight Tool
+# 💬 WhatsApp Chat Analysis
 
-**Chat Analysis** is an intelligent tool that deeply analyzes the content of a WhatsApp conversation and presents meaningful insights through an interactive dashboard.
-
-It’s designed for anyone who wants to explore messaging patterns, track engagement, and uncover the emotional tone of conversations.
+WhatsApp Chat Analysis is an intelligent tool that processes and visualizes insights from WhatsApp conversation exports through an interactive dashboard. It’s designed to help users understand communication patterns, emotional tone, activity bursts, and more.
 
 ---
 
-## 🔍 Key Features
+## 🚀 Features
 
-- 🧵 **Conversation Initiators**  
-  Identify who usually starts the conversations and how the dynamic changes over time.
-
-- ⏰ **Peak Activity Times**  
-  Discover when the chat is most active throughout the day or week.
-
-- 😊 **Emoji Usage Tracker**  
-  Visualize which emojis are used most often and by whom.
-
-- 💬 **Sentiment Analysis**  
-  Understand the tone of the messages—positive, negative, or neutral.
-
-- 📈 **Engagement Insights**  
-  Measure who is the most active, how fast they respond, and how consistent they are in the chat.
-
-- 🤖 **Smart Chat Queries**  
-  Ask natural language questions like *“When did the fight happen?”* to get accurate, data-backed answers.
+- **Conversation Initiators** – Find out who usually starts the conversation.
+- **Peak Activity Times** – Identify periods of highest engagement.
+- **Emoji Usage** – Analyze frequently used emojis by each participant.
+- **Sentiment Analysis** – Detect positive, negative, or neutral tones across chats.
+- **Engagement Insights** – Evaluate participation using message frequency, consistency, and response time.
+- **Smart Chat Queries** – Ask natural language questions like *"When did the fight happen?"* to get accurate, data-backed answers.
 
 ---
 
 ## 📸 Screenshots
 
-### 📍 Dashboard Overview
-![Dashboard Overview](screenshots/dashboard.png)
+#### 🖥️ Front Page  
+![Front Page](screenshots/frontpage.png)
 
-### ⏱ Peak Activity Heatmap
-![Peak Activity](screenshots/peak_activity.png)
+#### 📊 Dashboard Overview  
+![Dashboard](screenshots/dashboard.png)
 
-### 😄 Emoji Usage Visualization
-![Emoji Usage](screenshots/emoji_usage.png)
+#### ⏰ Chat Activity Over Time  
+![Chat Activity](screenshots/chat_activity.png)
 
-### 📊 Sentiment Over Time
-![Sentiment Analysis](screenshots/sentiment.png)
+#### 📅 Messages by Day  
+![Messages by Day](screenshots/messages_by_day.png)
 
----
+#### 📈 Bar Graph of Activity  
+![Bar Graph](screenshots/bar_graph.png)
 
-## 🚀 Getting Started
+#### 🎯 Focus & Engagement Pie Chart  
+![Focus Pie](screenshots/focus_pie.png)
 
-1. Export your WhatsApp chat as a `.txt` file.
-2. Upload the chat file to the tool.
-3. Let the analysis run and view the dashboard.
+#### 😊 Emoji Usage Visualization  
+![Emoji Usage](screenshots/emotion.png)
 
-> 💡 Make sure to clean any sensitive data before uploading!
+#### 🧠 Sentiment Over Time  
+![Sentiment](screenshots/sentiment.png)
 
----
+#### 🤖 Smart Chat Bot Interface  
+![Chat Bot](screenshots/bot.png)
 
-## 🛠 Built With
-
-- Python (Pandas, Matplotlib, Seaborn, NLTK, TextBlob)
-- Streamlit (for the dashboard)
-- Regex & NLP tools for parsing and analysis
-
----
-
-## 📚 Use Cases
-
-- Understand communication styles in personal or group chats.
-- Perform sentiment analysis for research or relationship studies.
-- Visual storytelling of message patterns.
+#### 📊 Summary Analysis Panel  
+![Analysis Panel](analysis.png)
 
 ---
 
+## 🛠 Getting Started
 
+### 1. Export WhatsApp Chat
+- Export your WhatsApp chat as `.txt` without media from the WhatsApp app.
+  
+### 2. Run the Notebook
+- Open `Chat_analysis.ipynb` in Jupyter Notebook or Google Colab.
+- Upload the exported `.txt` file when prompted.
+
+### 3. View Insights
+- Visuals, graphs, sentiment breakdowns, and response behaviors will be generated.
+
+---
+
+## 🧠 Tech Stack
+
+- Python 🐍
+- Pandas & Numpy – for data handling
+- Matplotlib & Seaborn – for visualizations
+- NLTK / TextBlob – for sentiment analysis
+- Streamlit / Jupyter – for interface
+
+---
+
+## 📌 Use Cases
+
+- Self-reflection and behavioral analysis
+- Understanding digital relationships
+- Academic research on communication patterns
+
+---
+
+
+## 🙋‍♀️ Author
+
+Made with ❤️ by **Blessy**  
